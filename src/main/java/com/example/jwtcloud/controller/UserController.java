@@ -131,7 +131,9 @@ public class UserController extends ExceptionHandling {
     public ResponseEntity<User> login(@RequestBody User user) {
         sauthentifier(user.getUsername(), user.getMotdePasse());//username et password pour s'authentifier
         User loginUser = userService.findUserByUsername(user.getUsername());
+
         System.out.println("loginUSER "  +  loginUser);
+        System.out.println("loginUSER "  +  user.getMotdePasse());
         //Ici venant de notre model
         UserPrincipal userPrincipal = new UserPrincipal(loginUser);
 

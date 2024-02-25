@@ -136,6 +136,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         }
     }
 
+
     @Override
     public User senregistrer(String nom, String prenom, String username, String email)
             throws UserNotFoundException, UsernameExistException, EmailExistException, MessagingException {

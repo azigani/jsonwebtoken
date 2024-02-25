@@ -97,11 +97,11 @@ public class ExceptionHandling implements  ErrorController {
         return createHttpResponse(HttpStatus.BAD_REQUEST, exception.getMessage());
     }
 //Pour les urls non trouvés
-
-    @ExceptionHandler(NoHandlerFoundException.class)
-    public ResponseEntity<HttpResponse> noHandlerFoundException(NoHandlerFoundException e) {
-        return createHttpResponse(HttpStatus.BAD_REQUEST, SecurityConstant.PAS_URL_EXISTANT);
-    }
+//
+//    @ExceptionHandler(NoHandlerFoundException.class)
+//    public ResponseEntity<HttpResponse> noHandlerFoundException(NoHandlerFoundException e) {
+//        return createHttpResponse(HttpStatus.BAD_REQUEST, SecurityConstant.PAS_URL_EXISTANT);
+//    }
 
     @ExceptionHandler(HttpRequestMethodNotSupportedException.class)
     public ResponseEntity<HttpResponse> methodNotSupportedException(HttpRequestMethodNotSupportedException exception) {

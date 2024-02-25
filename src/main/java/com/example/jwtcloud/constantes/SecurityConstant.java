@@ -17,6 +17,8 @@ public class SecurityConstant {
     public static final String ACCESS_DENIED_MESSAGE = "Vous n'avez pas l'autorisation d'accéder à cette page.";
     public static final String PAS_URL_EXISTANT = "Pas de chemin de mapping vers cet URL ou cette page est non trouvable";
     public static final String OPTIONS_HTTP_METHOD = "OPTIONS";
-    public static final String[] URLS_PUBLIC = {"/**"};
+//    public static final String[] URLS_PUBLIC = {"/**"};
+    public static final String[] URLS_PUBLIC = {"/user/connexion","/user/senregistrer"};
+//    public static final String[] URLS_PUBLIC = {"/**"};
 
 }

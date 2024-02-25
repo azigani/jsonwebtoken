@@ -16,7 +16,7 @@ public class LoginAttemptService {
 
     private static final int ATTEMPT_INCREMENT = 1;
 
-    private LoadingCache<String, Integer> loginAttemptCache;
+    private LoadingCache<String, Integer> loginAttemptCache;//Je defini ici une clef valeur, User et nombre de tentative
 
     public LoginAttemptService() {
         super();
@@ -42,7 +42,6 @@ public class LoginAttemptService {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
         loginAttemptCache.put(username, attempts);
     }
 

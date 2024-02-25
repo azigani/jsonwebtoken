@@ -99,7 +99,7 @@ public class MaConfigSecurite extends WebSecurityConfigurerAdapter {
                  *
                  */
 
-                .authorizeRequests().antMatchers("/authenticate", "/register").permitAll()
+                .authorizeRequests().antMatchers(URLS_PUBLIC).permitAll()
                 /** Toutes les autres requêtes nécessitent une authentification
                  *
                  */
