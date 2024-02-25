@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001471bc-dc08-4933-89e1-da538ae19b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/LoginAttemptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/LoginAttemptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="101">
+              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="75" column="92" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="92" />
+            <state relative-caret-position="119">
+              <caret line="115" column="94" selection-start-line="115" selection-start-column="79" selection-end-line="115" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4039#4070#0" />
@@ -263,8 +258,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -773,15 +768,16 @@
       <workItem from="1704454577512" duration="1479000" />
       <workItem from="1708631462170" duration="7946000" />
       <workItem from="1708676608454" duration="4219000" />
-      <workItem from="1708860932562" duration="14697000" />
+      <workItem from="1708860932562" duration="15728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="598158000" />
+    <option name="totallyTimeSpent" value="599189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -793,7 +789,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.57028115" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.5488621" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1232,18 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="75" column="92" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4039#4070#0" />
-            <element signature="n#!!doc;n#update#0;n#UserController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1253,10 +1237,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="101">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="115" column="94" selection-start-line="115" selection-start-column="79" selection-end-line="115" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4039#4070#0" />
+            <element signature="n#!!doc;n#update#0;n#UserController#0" />
           </folding>
         </state>
       </provider>
