@@ -5,7 +5,7 @@ import java.util.List;
 
 public class SecurityConstant {
 
-    public static final long TEMPS_EXPIRATION = 432_000_000; // 5 jours exprimé en milliseconds
+    public static final long TEMPS_EXPIRATION = 604_800_000*2; // 5 jours exprimé en milliseconds*2 donc 10jr
     //    public static final String TOKEN_PREFIX = "Bearer ";
     public static final String TOKEN_PREFIX = "Bearer ";
     public static final String JWT_TOKEN_HEADER = "Jwt-Token";
@@ -15,10 +15,8 @@ public class SecurityConstant {
     public static final String AUTHORITIES = "autorisations";
     public static final String FORBIDDEN_MESSAGE = "Une connexion est requise pour accéder à cette page.";
     public static final String ACCESS_DENIED_MESSAGE = "Vous n'avez pas l'autorisation d'accéder à cette page.";
+    public static final String PAS_URL_EXISTANT = "Pas de chemin de mapping vers cet URL ou cette page est non trouvable";
     public static final String OPTIONS_HTTP_METHOD = "OPTIONS";
-    //Ici je défini les urls public, pas besoin d'authentification
-//    public static final String[] URLS_PUBLIC = { "/user/login", "/user/register", "/user/modifierMotDePasse/**", "/user/image/**" };
     public static final String[] URLS_PUBLIC = {"/**"};
-//    public static final List<String> URLS_PUBLIC = Arrays.asList("/**");
 
 }

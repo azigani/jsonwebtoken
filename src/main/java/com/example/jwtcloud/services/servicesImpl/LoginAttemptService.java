@@ -1,4 +1,5 @@
 package com.example.jwtcloud.services.servicesImpl;
+
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
@@ -12,7 +13,9 @@ import static java.util.concurrent.TimeUnit.MINUTES;
 public class LoginAttemptService {
 
     private static final int MAXIMUM_NUMBER_OF_ATTEMPTS = 7;
+
     private static final int ATTEMPT_INCREMENT = 1;
+
     private LoadingCache<String, Integer> loginAttemptCache;
 
     public LoginAttemptService() {
@@ -26,7 +29,7 @@ public class LoginAttemptService {
                 });
     }
 
-//Supprimer toutes les tentatives du user
+    //Supprimer toutes les tentatives du user
     public void evictUserFromLoginAttemptCache(String username) {
         loginAttemptCache.invalidate(username);
     }

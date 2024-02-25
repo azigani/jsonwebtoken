@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="001471bc-dc08-4933-89e1-da538ae19b49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/EmailConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/EmailConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/UserImplConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/UserImplConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/InternalApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/enumerations/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/enumerations/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/LoginAttemptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/LoginAttemptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/utility/JWTTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/utility/JWTTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jwt-udemy@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jwt-udemy@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jwt-udemy@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="jwt-udemy: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jwt-udemy@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="jwt-udemy: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="user: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="130" column="63" lean-forward="true" selection-start-line="130" selection-start-column="63" selection-end-line="130" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4039#4070#0" />
+                <element signature="n#!!doc;n#update#0;n#UserController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="97" column="70" lean-forward="true" selection-start-line="97" selection-start-column="70" selection-end-line="97" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/Permissions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/EmailConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#71#144#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/FileConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/utility/JWTTokenProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7069#7084#0" />
+                <element signature="e#8867#8921#0" />
+                <element signature="e#14378#14393#0" />
+                <element signature="e#17808#17845#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/EmailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User</find>
+      <find>App</find>
+      <find>addFil</find>
+      <find>Les identifications sont erronées</find>
+      <find>jpa</find>
+      <find>NoHan</find>
+      <find>BadCredentialsException</find>
+      <find>authorizationHeader</find>
+      <find>user</find>
+      <find>Je rentre si  aauthorizationHeader</find>
+      <find>authorizationHeaderBearer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>AppUser</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/PurchaseHistory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/repository/IBookRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/repository/IPurchaseHistoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/repository/IUserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/repository/projection/IPurchaseItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/IPurchaseHistoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/PurchaseHistoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/IAuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/IBookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/UserPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/CustomerDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/jwt/JwtProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/jwt/JwtAuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/jwt/IJwtProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/security/jwt/InternalApiAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/Authority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/domain/EmailExistException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/listener/AuthenticationFailureListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/listener/AuthenticationReussieListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/FileConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/UserPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/JwtCloudApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/EmailConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthenticationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/LoginAttemptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/UserImplConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/Permissions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/enumerations/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/utility/JWTTokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jsontoken" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="constantes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="servicesImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwt-zigani" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.7.4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.7.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.7.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.7.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.7.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.7.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.7.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.7.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.7.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="userdetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.9" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.3.9" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwt-zigani" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:5.3.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/docker-crash-course-master/docker-crash-course-master/README.md" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.jwtcloud.exceptions" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo.models" />
+      <recent name="com.example.demo.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.models" />
+      <recent name="com.example.demo.securite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL Gaming\Documents\angularsformation\formation-jwt-udemy\JsonWebTokenUdemy\jwt-cloud\src\main\java\com\example\jwtcloud" />
+      <recent name="C:\Users\DELL Gaming\Documents\angularsformation\formation-jwt-udemy\JsonWebTokenUdemy\jwt-cloud\src\main\java\com\example\jwtcloud\controller" />
+      <recent name="C:\Users\DELL Gaming\Documents\angularsformation\formation-jwt-udemy\JsonWebTokenUdemy\jwt-cloud\src\main\java\com\example\jwtcloud\models" />
+      <recent name="C:\Users\DELL Gaming\Documents\angularsformation\Jwt_cloud\jwt-cloud\src\main\java\com\example\jwtcloud\controller" />
+      <recent name="C:\Users\DELL Gaming\Documents\angularsformation\Jwt_cloud\jwt-cloud\src\main\java\com\example\jwtcloud\security\jwt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JwtCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jwt-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jwtcloud.JwtCloudApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="001471bc-dc08-4933-89e1-da538ae19b49" name="Default Changelist" comment="" />
+      <created>1689681367599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689681367599</updated>
+      <workItem from="1689681373259" duration="10190000" />
+      <workItem from="1689756232624" duration="2356000" />
+      <workItem from="1689847713549" duration="9529000" />
+      <workItem from="1689865330384" duration="906000" />
+      <workItem from="1689943898709" duration="603000" />
+      <workItem from="1690362859210" duration="2953000" />
+      <workItem from="1690451432969" duration="726000" />
+      <workItem from="1690495019526" duration="189000" />
+      <workItem from="1690495243092" duration="37000" />
+      <workItem from="1690533562885" duration="2364000" />
+      <workItem from="1690557012196" duration="629000" />
+      <workItem from="1690620071447" duration="662000" />
+      <workItem from="1690651522813" duration="1900000" />
+      <workItem from="1690747361476" duration="749000" />
+      <workItem from="1690803843131" duration="3807000" />
+      <workItem from="1690880148608" duration="838000" />
+      <workItem from="1690965198853" duration="4813000" />
+      <workItem from="1691003529780" duration="2565000" />
+      <workItem from="1691042104486" duration="527000" />
+      <workItem from="1691060217102" duration="9059000" />
+      <workItem from="1691138582234" duration="1353000" />
+      <workItem from="1691596359024" duration="5915000" />
+      <workItem from="1691664320597" duration="5830000" />
+      <workItem from="1691732181819" duration="7124000" />
+      <workItem from="1691744412450" duration="97000" />
+      <workItem from="1691744543161" duration="511000" />
+      <workItem from="1691745233509" duration="8147000" />
+      <workItem from="1691875681060" duration="4131000" />
+      <workItem from="1691930078046" duration="330000" />
+      <workItem from="1691930431679" duration="9396000" />
+      <workItem from="1691957870778" duration="5962000" />
+      <workItem from="1692002560992" duration="7201000" />
+      <workItem from="1692018504756" duration="595000" />
+      <workItem from="1692028128101" duration="1613000" />
+      <workItem from="1692134580165" duration="1247000" />
+      <workItem from="1692174280921" duration="7585000" />
+      <workItem from="1692211753485" duration="228000" />
+      <workItem from="1692218526264" duration="5180000" />
+      <workItem from="1692260721649" duration="634000" />
+      <workItem from="1692270875882" duration="154000" />
+      <workItem from="1692344699366" duration="11911000" />
+      <workItem from="1692641365030" duration="3042000" />
+      <workItem from="1692649719015" duration="1591000" />
+      <workItem from="1692703676905" duration="4310000" />
+      <workItem from="1692752645673" duration="3099000" />
+      <workItem from="1692782776570" duration="670000" />
+      <workItem from="1692793566651" duration="12960000" />
+      <workItem from="1692811023259" duration="2343000" />
+      <workItem from="1692867158868" duration="745000" />
+      <workItem from="1692888146314" duration="8272000" />
+      <workItem from="1692953752905" duration="15338000" />
+      <workItem from="1693048312335" duration="3351000" />
+      <workItem from="1693071328118" duration="8816000" />
+      <workItem from="1693084930893" duration="4004000" />
+      <workItem from="1693132215012" duration="22088000" />
+      <workItem from="1693211806862" duration="15731000" />
+      <workItem from="1693258506251" duration="7441000" />
+      <workItem from="1693297312943" duration="1917000" />
+      <workItem from="1693385208444" duration="2819000" />
+      <workItem from="1693471845585" duration="749000" />
+      <workItem from="1693479770845" duration="616000" />
+      <workItem from="1693563344210" duration="3851000" />
+      <workItem from="1693656079390" duration="1841000" />
+      <workItem from="1693815453436" duration="607000" />
+      <workItem from="1693831238855" duration="7750000" />
+      <workItem from="1693858854668" duration="7468000" />
+      <workItem from="1693867852639" duration="616000" />
+      <workItem from="1693903678877" duration="3748000" />
+      <workItem from="1693999178895" duration="9271000" />
+      <workItem from="1694015313521" duration="1775000" />
+      <workItem from="1694075545468" duration="61000" />
+      <workItem from="1694168035143" duration="2790000" />
+      <workItem from="1694174105524" duration="4409000" />
+      <workItem from="1694423701805" duration="777000" />
+      <workItem from="1694425242213" duration="15189000" />
+      <workItem from="1694468642649" duration="512000" />
+      <workItem from="1694469587982" duration="699000" />
+      <workItem from="1694470315157" duration="6507000" />
+      <workItem from="1694530986924" duration="2863000" />
+      <workItem from="1694593431838" duration="7700000" />
+      <workItem from="1694635062056" duration="4367000" />
+      <workItem from="1694680437687" duration="624000" />
+      <workItem from="1694697894740" duration="9480000" />
+      <workItem from="1694726292185" duration="2724000" />
+      <workItem from="1694768000526" duration="20092000" />
+      <workItem from="1694885811445" duration="10645000" />
+      <workItem from="1694899604980" duration="1049000" />
+      <workItem from="1695025839423" duration="15395000" />
+      <workItem from="1695045843455" duration="8631000" />
+      <workItem from="1695121807898" duration="5717000" />
+      <workItem from="1695130737243" duration="2799000" />
+      <workItem from="1695199558717" duration="13434000" />
+      <workItem from="1695247901084" duration="3600000" />
+      <workItem from="1695285234222" duration="9424000" />
+      <workItem from="1695389498699" duration="5866000" />
+      <workItem from="1695635260356" duration="8248000" />
+      <workItem from="1695649721461" duration="3993000" />
+      <workItem from="1695729683874" duration="594000" />
+      <workItem from="1695737227578" duration="585000" />
+      <workItem from="1695802392352" duration="3308000" />
+      <workItem from="1695820022997" duration="3709000" />
+      <workItem from="1695913222486" duration="1776000" />
+      <workItem from="1695988411632" duration="637000" />
+      <workItem from="1696237095331" duration="1057000" />
+      <workItem from="1696330598889" duration="4139000" />
+      <workItem from="1696421108095" duration="4539000" />
+      <workItem from="1696756679231" duration="598000" />
+      <workItem from="1696775989738" duration="1230000" />
+      <workItem from="1696839989532" duration="1584000" />
+      <workItem from="1696858919215" duration="1387000" />
+      <workItem from="1696878562809" duration="1923000" />
+      <workItem from="1696927373873" duration="605000" />
+      <workItem from="1697017530075" duration="249000" />
+      <workItem from="1697017801969" duration="563000" />
+      <workItem from="1697021883023" duration="624000" />
+      <workItem from="1697024010476" duration="1197000" />
+      <workItem from="1697060985158" duration="594000" />
+      <workItem from="1697100464738" duration="594000" />
+      <workItem from="1697465912624" duration="595000" />
+      <workItem from="1697531216494" duration="18798000" />
+      <workItem from="1697619822739" duration="1742000" />
+      <workItem from="1697646000784" duration="414000" />
+      <workItem from="1697724978598" duration="1241000" />
+      <workItem from="1697790805533" duration="1277000" />
+      <workItem from="1698054680984" duration="1842000" />
+      <workItem from="1698137727758" duration="7087000" />
+      <workItem from="1698243077449" duration="1938000" />
+      <workItem from="1698658939631" duration="14971000" />
+      <workItem from="1698866124382" duration="3423000" />
+      <workItem from="1698928824723" duration="1916000" />
+      <workItem from="1699118758649" duration="3259000" />
+      <workItem from="1699136007603" duration="710000" />
+      <workItem from="1699175900791" duration="706000" />
+      <workItem from="1699258767653" duration="691000" />
+      <workItem from="1699346435049" duration="925000" />
+      <workItem from="1699435990232" duration="635000" />
+      <workItem from="1699469472767" duration="744000" />
+      <workItem from="1699509480687" duration="794000" />
+      <workItem from="1700757720015" duration="658000" />
+      <workItem from="1701075414320" duration="1195000" />
+      <workItem from="1701120604587" duration="885000" />
+      <workItem from="1701161674790" duration="1099000" />
+      <workItem from="1701248539408" duration="1201000" />
+      <workItem from="1701443379216" duration="2069000" />
+      <workItem from="1701878494773" duration="1467000" />
+      <workItem from="1702326806159" duration="686000" />
+      <workItem from="1704227814398" duration="181000" />
+      <workItem from="1704454577512" duration="1479000" />
+      <workItem from="1708631462170" duration="7946000" />
+      <workItem from="1708676608454" duration="4219000" />
+      <workItem from="1708860932562" duration="5033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="588494000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.13922356" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.502008" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.270415" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32931727" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.502008" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.025606468" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.02010724" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10242587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.10635359" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.502008" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.27071825" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32931727" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.502008" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.025606468" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.025606468" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/UserRole.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.10.0/java-jwt-3.10.0-sources.jar!/com/auth0/jwt/exceptions/JWTVerificationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/JwtCloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.10.0/java-jwt-3.10.0-sources.jar!/com/auth0/jwt/interfaces/JWTVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.10.0/java-jwt-3.10.0-sources.jar!/com/auth0/jwt/TokenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="20" column="115" lean-forward="true" selection-start-line="20" selection-start-column="115" selection-end-line="20" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.10.0/java-jwt-3.10.0-sources.jar!/com/auth0/jwt/JWTDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.10.0/java-jwt-3.10.0-sources.jar!/com/auth0/jwt/JWTVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9746e041-9e6d-4d7a-a028-5fad24649d76/schema/jwt-udemy/table/user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9746e041-9e6d-4d7a-a028-5fad24649d76/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.52/tomcat-embed-core-9.0.52-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4-sources.jar!/org/springframework/boot/web/servlet/error/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4-sources.jar!/org/springframework/security/core/GrantedAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.9/spring-web-5.3.9-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9-sources.jar!/org/springframework/web/servlet/NoHandlerFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.9/spring-web-5.3.9-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="170" column="4" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/InternalApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/AuthenticationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/filter/JwtAuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="75" column="74" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1099#1111#0" />
+            <element signature="e#3783#3867#0" />
+            <element signature="e#4352#4466#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.9/spring-web-5.3.9-sources.jar!/org/springframework/http/HttpHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="166" column="63" lean-forward="true" selection-start-line="166" selection-start-column="63" selection-end-line="166" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/UserImplConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/domain/EmailExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/domain/EmailNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/domain/NotAnImageFileException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/domain/UsernameExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/domain/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/exceptions/ExceptionHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="102" column="91" selection-start-line="102" selection-start-column="91" selection-end-line="102" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/Jwtutils/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/models/UserPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/enumerations/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="98" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/LoginAttemptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/servicesImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7069#7084#0" />
+            <element signature="e#8867#8921#0" />
+            <element signature="e#14378#14393#0" />
+            <element signature="e#17808#17845#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="130" column="63" lean-forward="true" selection-start-line="130" selection-start-column="63" selection-end-line="130" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4039#4070#0" />
+            <element signature="n#!!doc;n#update#0;n#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/utility/JWTTokenProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/EmailConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#71#144#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/FileConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/Permissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/constantes/SecurityConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jwtcloud/config/MaConfigSecurite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="97" column="70" lean-forward="true" selection-start-line="97" selection-start-column="70" selection-end-line="97" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

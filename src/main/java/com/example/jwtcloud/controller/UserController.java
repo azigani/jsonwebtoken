@@ -1,5 +1,6 @@
 package com.example.jwtcloud.controller;
 
+import com.example.jwtcloud.constantes.Permissions;
 import com.example.jwtcloud.exceptions.ExceptionHandling;
 import com.example.jwtcloud.exceptions.domain.*;
 import com.example.jwtcloud.models.HttpResponse;
@@ -27,6 +28,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 import static com.example.jwtcloud.constantes.FileConstant.*;
+import static com.example.jwtcloud.constantes.Permissions.USER_AUTHORITIES;
 import static com.example.jwtcloud.constantes.SecurityConstant.JWT_TOKEN_HEADER;
 import static org.springframework.http.HttpStatus.*;
 import static org.springframework.http.MediaType.IMAGE_JPEG_VALUE;
@@ -108,7 +110,8 @@ public class UserController extends ExceptionHandling {
 //        User updatedUser = userService.ModifierUser(utilisateurCourant, nom, prenom, username,email, role, Boolean.parseBoolean(estActif), Boolean.parseBoolean(isNonLocked), profileImage);
 //        return new ResponseEntity<>(updatedUser, OK);
 //    }
-
+//    @PreAuthorize("hasAnyAuthority('user:miseAJour')")
+//    @PreAuthorize(USER_AUTHORITIES)
     @PostMapping("/modifier")
     public ResponseEntity<User> update(@RequestParam("currentUsername") String currentUsername,
                                        @RequestParam("firstName") String firstName,
@@ -167,7 +170,6 @@ public class UserController extends ExceptionHandling {
 
     }
 
-//    @PreAuthorize("hasAnyAuthority('user:miseAJour')")
     @GetMapping("/modifier-mot-de-passe/{email}")
     public ResponseEntity<HttpResponse> modifierMoDePasse(@PathVariable("email") String email) throws MessagingException, EmailNotFoundException, javax.mail.MessagingException {
         userService.motdifierMotDePasse(email);

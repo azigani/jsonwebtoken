@@ -20,6 +20,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
@@ -56,14 +57,14 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     //    @Autowired
     EmailService emailService;
 
-    private BCryptPasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
 //    public UserServiceImpl(UserRepository userRepository) {
 //        this.userRepository = userRepository;
 //    }
 
     @Autowired
-    public UserServiceImpl(UserRepository userRepository, LoginAttemptService loginAttemptService, EmailService emailService, BCryptPasswordEncoder passwordEncoder) {
+    public UserServiceImpl(UserRepository userRepository, LoginAttemptService loginAttemptService, EmailService emailService, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
         this.loginAttemptService = loginAttemptService;
         this.emailService = emailService;

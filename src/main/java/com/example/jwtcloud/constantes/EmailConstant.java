@@ -17,7 +17,6 @@ public class EmailConstant {
 
     public static final String SIMPLE_MAIL_TRANSFER_PROTOCOL = "smtps";
     public static final String USERNAME = "azigani8@gmail.com";
-//    public static final String PASSWORD = "Phonsus@";
     public static final String PASSWORD = "krdt rcdw ugbt hojh";
     public static final String FROM_EMAIL = "azigani8@gmail.com";
     public static final String CC_EMAIL = "";

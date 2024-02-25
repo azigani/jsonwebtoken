@@ -1,12 +1,10 @@
 package com.example.jwtcloud.filter;
 
+import com.example.jwtcloud.services.servicesImpl.CustomUserDetailsService;
 import com.example.jwtcloud.utility.JWTTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -17,8 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
-
 import static com.example.jwtcloud.constantes.SecurityConstant.*;
 
 import static org.springframework.http.HttpHeaders.AUTHORIZATION;
@@ -71,16 +67,19 @@ public class JwtAuthorizationFilter extends OncePerRequestFilter {
     @Autowired
     private JWTTokenProvider jwtTokenProvider;
 
+    @Autowired
+    private CustomUserDetailsService userDetailsService;
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
-
+          final   String authorizationHeader = request.getHeader(AUTHORIZATION);
         if (request.getMethod().equalsIgnoreCase(OPTIONS_HTTP_METHOD)) {
             response.setStatus(OK.value());
         } else
             {
 
-            String authorizationHeader = request.getHeader(AUTHORIZATION);
+
             System.out.println("authorizationHeader"  + authorizationHeader);
 
             if (authorizationHeader == null || !authorizationHeader.startsWith(TOKEN_PREFIX)) {
@@ -105,6 +104,7 @@ public class JwtAuthorizationFilter extends OncePerRequestFilter {
 //            String username = jwtTokenProvider.getSubject(token);
             System.out.println("token username   " +username);
             if (jwtTokenProvider.isTokenValid(username, token)) {
+//                UserDetails userDetails = this.userDetailsService.loadUserByUsername(username);
                 List<GrantedAuthority> authorities = jwtTokenProvider.getAuthorities(token);
                 Authentication authentication = jwtTokenProvider.getAuthentication(username, authorities, request);
                 SecurityContextHolder.getContext().setAuthentication(authentication);

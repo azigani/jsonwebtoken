@@ -15,6 +15,9 @@ import static com.example.jwtcloud.constantes.SecurityConstant.FORBIDDEN_MESSAGE
 import static org.springframework.http.HttpStatus.FORBIDDEN;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
+/**
+ * Gestionnaire d'entrée pour les erreurs d'authentification
+ */
 @Component
 public class JwtAuthenticationEntryPoint extends Http403ForbiddenEntryPoint {
 

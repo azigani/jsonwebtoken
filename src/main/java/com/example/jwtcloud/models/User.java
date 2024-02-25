@@ -20,7 +20,8 @@ public class User implements Serializable {
     private String prenom;
     private String username;
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private String motdePasse;
+    @Column(length = 64, nullable = false)
+   private String motdePasse;
 
     private String email;
     private String profileImageUrl;
