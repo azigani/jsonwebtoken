@@ -163,7 +163,7 @@ public class UserController extends ExceptionHandling {
         return new ResponseEntity<>(user, OK);
     }
 
-    @PreAuthorize("hasAnyAuthority('user:lire')")
+
     @GetMapping("/liste-de-tous-les-utilisateurs")
     public ResponseEntity<List<User>> getAllUsers() {
         List<User> utilisateurs = userService.getAllUsers();
@@ -184,9 +184,9 @@ public class UserController extends ExceptionHandling {
                 message), httpStatus);
     }
 
-
-    @DeleteMapping("/supprimer-utilisateur/{id}")
     @PreAuthorize("hasAnyAuthority('user:supprimer')")//Si tu n'as pas le droit tu ne peux pas
+    @DeleteMapping("/supprimer-utilisateur/{id}")
+
     public ResponseEntity<HttpResponse> deleteUser(@PathVariable("id") Long id) {
         userService.supprimerUser(id);
         return response(OK, USER_DELETED_SUCCESSFULLY);
