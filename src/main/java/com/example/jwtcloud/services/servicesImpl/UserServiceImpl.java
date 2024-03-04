@@ -349,27 +349,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         return Role.valueOf(role.toUpperCase());
     }
 
-//    @Override
-//    public User ModifierUser(String nouvelutilisateurCourant, String nouveauNom, String nouveauPrenom, String nouveauUsername, String nouvelemail, String role, boolean nonVerouille, boolean estActif, MultipartFile profilImage)
-//            throws UserNotFoundException, UsernameExistException, EmailExistException, IOException, NotAnImageFileException {
-//
-//        User utilisateurCourant = validerExistanceUsernameEtEmail(nouvelutilisateurCourant, nouveauUsername, nouvelemail);
-////        String password = genererMotDePasse(); // non utilisé pour le mot de passe en mode modif
-////        user.setUserId(generateId());
-//        utilisateurCourant.setNom(nouveauNom);
-//        utilisateurCourant.setPrenom(nouveauPrenom);
-//        utilisateurCourant.setJoinDate(new Date());
-//        utilisateurCourant.setUsername(nouveauUsername);
-//        utilisateurCourant.setEmail(nouvelemail);
-//        utilisateurCourant.setActive(estActif);
-//        utilisateurCourant.setNotLocked(nonVerouille);
-//        utilisateurCourant.setAuthorities(getRoleEnum(role).getAuthorities());
-//        userRepository.save(utilisateurCourant);
-//        enregistrerProfileImage(utilisateurCourant, profilImage);
-//        return utilisateurCourant;
-//    }
-
-
     @Override
     public User updateUser(String currentUsername, String newFirstName, String newLastName, String newUsername, String newEmail, String role, boolean isNonLocked, boolean isActive, MultipartFile profileImage) throws UserNotFoundException, UsernameExistException, EmailExistException, IOException, NotAnImageFileException {
         User currentUser = validerExistanceUsernameEtEmail(currentUsername, newUsername, newEmail);

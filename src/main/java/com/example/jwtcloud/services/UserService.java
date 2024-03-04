@@ -50,4 +50,12 @@ public interface UserService {
 
         User miseAjourImageProfilUtilisateur(String username , MultipartFile profilImage) throws UserNotFoundException, UsernameExistException, EmailExistException, IOException, NotAnImageFileException;
 
+
+//
+//    public void activateAccount(User user) ;
+//
+//
+//    public void deactivateAccount(User user);
+
+
 }

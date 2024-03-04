@@ -15,18 +15,18 @@ public class HttpResponse {
     private Date timeStamp;
     private int httpStatusCode; // 200, 201, 400, 500
     private HttpStatus httpStatus;
-    private String reason;
+    private String raison;
     private String message;
 
     // Constructor never used. Can be (and should be) deleted
     public HttpResponse() {
     }
 
-    public HttpResponse(int httpStatusCode, HttpStatus httpStatus, String reason, String message) {
+    public HttpResponse(int httpStatusCode, HttpStatus httpStatus, String raison, String message) {
         this.timeStamp = new Date();
         this.httpStatusCode = httpStatusCode;
         this.httpStatus = httpStatus;
-        this.reason = reason;
+        this.raison = raison;
         this.message = message;
     }
 
@@ -54,12 +54,12 @@ public class HttpResponse {
         this.httpStatus = httpStatus;
     }
 
-    public String getReason() {
-        return reason;
+    public String getRaison() {
+        return raison;
     }
 
-    public void setReason(String reason) {
-        this.reason = reason;
+    public void setRaison(String raison) {
+        this.raison = raison;
     }
 
     public String getMessage() {

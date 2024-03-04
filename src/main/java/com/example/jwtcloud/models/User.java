@@ -21,17 +21,14 @@ public class User implements Serializable {
     private String username;
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @Column(length = 64, nullable = false)
-   private String motdePasse;
-
+    private String motdePasse;
     private String email;
     private String profileImageUrl;
-
     private Date lastLoginDate;
-
     private Date lastLoginDateDisplay;
 
     private Date joinDate;
-    private String  role; //ROLE_USER{ read, edit }, ROLE_ADMIN {delete}
+    private String role; //ROLE_USER{ read, edit }, ROLE_ADMIN {delete}
     private String[] authorities; // les différentes autorisations du user
 
     private boolean isActive;

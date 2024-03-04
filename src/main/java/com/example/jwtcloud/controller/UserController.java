@@ -185,7 +185,7 @@ public class UserController extends ExceptionHandling {
     }
 
     @PreAuthorize("hasAnyAuthority('user:supprimer')")//Si tu n'as pas le droit tu ne peux pas
-    @DeleteMapping("/supprimer-utilisateur/{id}")
+        @DeleteMapping("/supprimer-utilisateur/{id}")
 
     public ResponseEntity<HttpResponse> deleteUser(@PathVariable("id") Long id) {
         userService.supprimerUser(id);
